@@ -25,10 +25,11 @@ namespace sitech.Controllers
             _context = context;
         }
         //route 2da parte
-        [Route("/ProductType")]
-        [Route("/ProductType/{search}")]
-        [Route("/ProductType/{search}/{page}")]
+        [Route("/ProductTypes")]
+        [Route("/ProductTypes/{search}")]
+        [Route("/ProductTypes/{search}/{page}")]
         //fin 
+        //prueba
         // GET: ProductTypes
         public async Task<IActionResult> Index(string search, int page = 1)
         {
