@@ -26,7 +26,7 @@ namespace sitech.Models
         public decimal Value { get; set; }
 
         [Display(Name = "Tipo de producto")]
-        public int ProductTypeIdJobId { get; set; }
+        public int ProductTypeId { get; set; }
         [ForeignKey("ProductTypeId")]
         public ProductType ProductType { get; set; }
 

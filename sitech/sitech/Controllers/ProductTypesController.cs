@@ -13,6 +13,7 @@ namespace sitech.Controllers
 {
     public class ProductTypesController : Controller
     {
+
         private readonly ApplicationDbContext _context;
         //Parte 1
         //new cod codigo para la paginacion
@@ -25,9 +26,10 @@ namespace sitech.Controllers
             _context = context;
         }
         //route 2da parte
-        [Route("/ProductTypes")]
-        [Route("/ProductTypes/{search}")]
-        [Route("/ProductTypes/{search}/{page}")]
+        //[Route("/ProductType")]
+        //[Route("/ProductType/{search}")]
+        //[Route("/ProductType/{search}/{page}")]
+   
         //fin 
         //prueba
         // GET: ProductTypes

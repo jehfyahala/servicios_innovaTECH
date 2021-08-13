@@ -15,7 +15,7 @@ namespace sitech.common
 
         public string Search { get; set; }
         public IEnumerable<T> Result { get; set; }
-        public string Tasks { get; set; }
-        public List<T> State { get; set; }
+        //public string Tasks { get; set; }
+       public List<T> ProductsType { get; set; }
     }
 }
